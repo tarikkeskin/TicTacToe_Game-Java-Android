@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/images"
+        android:contentDescription="@string/todo" /><!--Change image as per your name of image saved in drawable-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/tour_eiffel_paris"
+        android:textSize="30sp"
+        android:textColor="#EC1F10"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/gamebutton"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="23dp"
+
+        android:onClick="goSingUp"
+        android:text="@string/go_to_the_game_screen" />
+
+
+</FrameLayout>
